@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://ez-itech.com/lib</licenseUrl>
+    <projectUrl>https://ez-itech.com/lib</projectUrl>
+    <iconUrl>https://ez-itech.com/lib</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+  <files>
+    <file src="task.config.demo" target="content" />
+  </files>
+</package>
