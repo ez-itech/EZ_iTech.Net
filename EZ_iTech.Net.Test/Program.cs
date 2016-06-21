@@ -14,14 +14,15 @@ namespace EZ_iTech.Net.Test {
             /* "255.255.255.128 */
             IPV4 IP = new IPV4();
             var aa1 = IP.GetSubnetMask(25);
+            var aa11 = IP.GetSubnetMaskFast(25);
             var aa2 = aa1.ToIp();
 
             var aa3 = aa1 & "2.0.254.1".ToInteger();
             var aa4 = aa3.ToIp();
 
             var aa5 = IP.CalcMinCidr(512);
-
-            IP.Subnet("192.168.1.1", "192.168.1.12");
+            var result = new string[0];
+            IP.Subnet("192.168.1.1", "192.168.1.12", ref result);
 
             var a1 = "255.255.255.128";
             var a2 = "255.255.255.255";
